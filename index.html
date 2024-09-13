@@ -1,0 +1,23 @@
+<html> 
+<head> 
+<title>Home Page </title> 
+</head> 
+<body> 
+    <style> 
+        .main { 
+        width: 800px; 
+        color: white; 
+        background-color:green; 
+        font-size:30px; 
+        text-align:center; 
+        }
+         
+        </style> 
+        <div class="main"><h2>Welcome to EDGE Class  </h2></div>
+        <div class="main">['Smart Office', 'Python', 'Wordpress','Digital Marketing'] </div>
+        {% for i in clist %} 
+        <div class="main">{{i}}</div> 
+        {% endfor %} 
+
+    </body> 
+</html> 
